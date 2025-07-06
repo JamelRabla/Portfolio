@@ -127,8 +127,9 @@ const Portfolio = () => {
 
   const closeProject = () => {
     setSelectedProject(null);
-    window.location.reload ();
     setCurrentView('projects');
+    window.location.reload ();
+
   };
 
   const ProjectDetail = ({ project }) => (
