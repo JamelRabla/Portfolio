@@ -406,7 +406,7 @@ const Portfolio = () => {
               Découvrez mon parcours et mes compétences en détail.
             </p>
             <a 
-              href="./assets/RABLA_JAMEL_CV_DEV.pdf" 
+              href="src/assets/RABLA_JAMEL_CV_DEV.pdf" 
               className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:scale-105"
               target="_blank"
             >
