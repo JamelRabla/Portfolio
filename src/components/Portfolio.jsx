@@ -247,7 +247,7 @@ const Portfolio = () => {
               Portfolio
             </div>
             <div className="hidden md:flex space-x-8">
-              {['home', 'about', 'projects', 'contact', 'CV'].map((section) => (
+              {['home', 'about', 'projects', 'CV', 'contact'].map((section) => (
                 <button
                   key={section}
                   onClick={() => scrollToSection(section)}
@@ -427,7 +427,7 @@ const Portfolio = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a 
-                href="mailto:contact@exemple.com"
+                href="mailto:jamelrablapro@gmail.com"
                 className="flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:scale-105"
               >
                 <Mail className="w-5 h-5 mr-2" />
