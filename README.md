@@ -1,23 +1,24 @@
-# Portfolio React + Vite
+# 🎓 Portfolio Étudiant – ISEN
 
-Un portfolio moderne et dynamique créé avec React, Vite et Tailwind CSS.
+Bienvenue sur mon portfolio personnel.
 
-## 🚀 Démarrage rapide
+Je suis étudiant à l’**ISEN** et ce site a été créé dans le but de **présenter mes compétences et projets** dans le cadre de ma **recherche d'alternance** dans le domaine du développement web / numérique.
 
-### Prérequis
-- Node.js (version 16 ou supérieure)
-- npm ou yarn
+---
 
-### Installation
-```bash
-# Cloner le projet
-git clone <your-repo-url>
+## ⚙️ Technologies utilisées
 
-# Naviguer dans le dossier
-cd portfolio
+- **React**
+- **Vite.js**
+- **HTML**
+- **Tailwind CSS**
 
-# Installer les dépendances
-npm install
+---
 
-# Lancer le serveur de développement
-npm run dev
+## 📬 Me contacter
+
+📧 Email : jamelrablapro@gmail.com
+
+💼 LinkedIn : https://www.linkedin.com/in/jamel-rabla/
+
+🌐 Portfolio : https://ton-portfolio.netlify.app
