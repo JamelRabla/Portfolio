@@ -21,4 +21,4 @@ Je suis étudiant à l’**ISEN** et ce site a été créé dans le but de **pr�
 
 💼 LinkedIn : https://www.linkedin.com/in/jamel-rabla/
 
-🌐 Portfolio : https://ton-portfolio.netlify.app
+🌐 Portfolio : https://jamelrabla.netlify.app/
