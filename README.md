@@ -1,16 +1,23 @@
-## Hi there 👋
+# Portfolio React + Vite
 
-<!--
-**JamelRabla/jamelrabla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Un portfolio moderne et dynamique créé avec React, Vite et Tailwind CSS.
 
-Here are some ideas to get you started:
+## 🚀 Démarrage rapide
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Prérequis
+- Node.js (version 16 ou supérieure)
+- npm ou yarn
+
+### Installation
+```bash
+# Cloner le projet
+git clone <your-repo-url>
+
+# Naviguer dans le dossier
+cd portfolio
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
