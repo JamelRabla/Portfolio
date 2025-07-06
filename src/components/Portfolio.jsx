@@ -128,8 +128,18 @@ const Portfolio = () => {
   const closeProject = () => {
     setSelectedProject(null);
     setCurrentView('projects');
-    window.location.reload ();
-
+    setTimeout(() => {
+      document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+      setActiveSection('projects');
+    }, 100);
+    setIsVisible(prev => ({
+      ...prev,
+      projects: true,
+      about: true,
+      home: true,
+      CV: true,
+      contact: true
+    }));
   };
 
   const ProjectDetail = ({ project }) => (
