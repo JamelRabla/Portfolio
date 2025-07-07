@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Clock from './Clock.jsx';
 import { ChevronDown, Github, Linkedin, Mail, ExternalLink, Code, Palette, Zap, ArrowLeft } from 'lucide-react';
 import profileImg from '../assets/profile.webp';
 import chattyImg from '../assets/chatty.webp';
@@ -127,7 +128,6 @@ const Portfolio = () => {
 
   const closeProject = () => {
     setSelectedProject(null);
-    setCurrentView('projects');
     setTimeout(() => {
       document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
       setActiveSection('projects');
@@ -255,7 +255,7 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Portfolio
+              Portfolio | <Clock />
             </div>
             <div className="hidden md:flex space-x-8">
               {['home', 'about', 'projects', 'CV', 'contact'].map((section) => (
