@@ -11,6 +11,7 @@ import clickerImg2 from '../assets/clickerMenu.webp';
 import lifeMain from '../assets/lifeMain.webp';
 import lifeForm from '../assets/lifeForm.webp';
 import lifeImg from '../assets/life.webp';
+import cvPdf from '../assets/RABLA_JAMEL_CV_DEV.pdf';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -240,7 +241,7 @@ const Portfolio = () => {
 
   const skills = [
     { name: "Frontend", icon: Code, items: ["React", "SCSS", "Blazor", "Tailwind CSS", "Typescript"] },
-    { name: "Backend", icon: Zap, items: ["Node.js", "ASP.NET", "C#", "SQL", "Python", "PHP"] },
+    { name: "Backend", icon: Zap, items: ["Node.js", "ASP.NET", "C#", "SQL", "Python", "PHP", "MongoDB", "Firebase"] },
     { name: "DevOps & Cloud", icon: Palette, items: ["Docker", "Azure", "CI/CD", "Git"] }
   ];
 
@@ -416,11 +417,11 @@ const Portfolio = () => {
             <p className="text-xl text-white/70 mb-12">
               Découvrez mon parcours et mes compétences en détail.
             </p>
-            <a 
-              href="src/assets/RABLA_JAMEL_CV_DEV.pdf" 
-              download={"RABLA_JAMEL_CV_DEV.pdf"}
-              className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:scale-105"
-            >
+              <a 
+                href={cvPdf} 
+                download="RABLA_JAMEL_CV_DEV.pdf"
+                className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover:scale-105"
+              >
               Télécharger le CV
             </a>
           </div>
