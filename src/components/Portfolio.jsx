@@ -11,7 +11,7 @@ import clickerImg2 from '../assets/clickerMenu.webp';
 import lifeMain from '../assets/lifeMain.webp';
 import lifeForm from '../assets/lifeForm.webp';
 import lifeImg from '../assets/life.webp';
-import cvPdf from '../assets/RABLA_JAMEL_CV_DEV.pdf';
+import cvPdf from '../assets/RABLA_JAMEL_CV.pdf';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
